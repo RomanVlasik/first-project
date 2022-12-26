@@ -1,0 +1,642 @@
+body  {
+    margin: 0;
+}
+
+div {
+    /*border: 1px solid red;*/
+}
+
+.page {
+    font-family:  'Helvetica Neue', 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    width:1600px;
+    height:4400px;
+    /*border: 1px solid red;*/
+    margin: 0;
+    display:table;
+}
+/*Страница 1*/
+.header {
+    width:100%;
+    height:756px;
+    /*border: 1px solid red;*/
+    margin: 0;
+    position: relative;
+    background-color: #f2f2f2;  
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width:228px;
+    height:32px;
+    position: absolute;
+    top:30px;
+    left:64px;
+    background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/logo_place_header.svg);
+    background-size: contain;
+    
+}
+
+.title {
+    width: 730px;
+    height: 250px;
+    margin-left: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.text1 {
+    line-height:96px;
+    font-size: 102px;
+    font-weight: 600;
+}
+
+.subtitle {
+    width:388px;
+    height:80px;
+    position: absolute;
+    bottom: 30px;
+    left:64px; 
+    display: flex;
+    align-items: center;
+   
+}
+.text2 {
+    line-height:25px;
+    font-size: 18px;
+    font-weight:normal;
+    
+}
+.link {
+    line-height:25px;
+    font-size: 18px;
+    font-weight:normal;
+    color: #2f80ed;
+    text-decoration: none;
+}
+
+.main-illustration {
+    width: 765px;
+    height: 608px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-image:url(file:///C:/Users/рома/Desktop/two_again.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+.square-pic {
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    right: 0px;
+    top: 64px;
+    background-color: #2f80ed;
+    
+}
+/*Страница 2*/
+.description {
+    width:100%;
+    height:334px;
+    /*border: 1px solid red;*/
+    display:table;
+    margin-top:100px;
+    
+}
+
+.two-columns {
+    width:80%;
+    height:334px;
+    margin-left: 50%;
+    margin: auto;
+    position: relative;
+    
+}
+
+.brief {
+    width: 175px;
+    height: 100%;
+    
+}
+
+.text3 {
+    color: #2f80ed;
+    line-height:1.2;
+    font-size: 18px;
+    font-weight:normal;
+    margin-top: 0;
+}
+.kont {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.paragraph {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 30px;  
+    
+}
+
+.text4 {
+    line-height:34px;
+    font-size: 24px;
+    font-weight:normal;
+    margin-top: 0;
+}
+
+.span-accent {
+    width: 100%;
+    height: 35px;
+    
+}
+.text5 {
+    margin-top: 0;
+    line-height:34px;
+    font-size: 24px;
+    font-weight:normal;
+}
+
+.main-text {
+    margin-top: 30px;
+    width:100%;
+    height: 100px;
+    
+}
+
+.text6 {
+    margin-top: 0;
+    line-height:34px;
+    font-size: 24px;
+    font-weight:600;
+}
+/*Страница 3*/
+.digits {
+    /*border: 1px solid red;*/
+    display:table;
+    margin-top: 100px;
+    width:100%;
+    height: 600px;
+}
+
+.section-title {
+    width: 60%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.texttitle {
+    line-height:1.15;
+    font-size: 60px;
+    font-weight:600;
+    margin-top: auto;
+}
+.section-subtitle {
+    width: 60%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 19.9%;
+    display: flex;
+    justify-content: center;
+}
+
+.textsubtitle {
+    line-height:34px;
+    font-size: 24px;
+    font-weight:normal;
+    margin-top: auto;
+}
+
+.table {
+    width:1100px;
+    height: 75%;
+    margin: auto;
+    
+}
+
+/*Первые четыре блока*/
+.cell {
+    width:1100px;
+    height: 30%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.blo {
+    width: 250px;
+    height: 100%;
+    
+}
+/*Общие правила блоков*/
+.prblo {
+    width: 100%;
+    height: 30px;
+    
+}
+.heading {
+    line-height:1.15px;
+    font-size: 24px;
+    font-weight:600;
+    margin-top: 5%;
+}
+.prblo1 {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+     
+}
+
+.text {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.text8 {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: normal;
+    align-items: flex-end;
+}
+
+.prblo2 {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    
+}
+/*Вторые четыре блока*/
+.strok1 {
+    width:1100px;
+    height: 42%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blo1 {
+    width: 250px;
+    height: 100%;  
+}
+/*Страница 4*/
+.feynman {
+    width:100%;
+    height: 900px;
+    /*border: 1px solid red;*/
+    margin-top: 100px;
+    display:table;
+    position: relative;
+    background-color:  #f2f2f2;
+    z-index: -2;
+    
+}
+.title1 {
+    width: 648px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.title1text {
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: 600;
+    margin-top: -50px;
+}
+.subtitle1 {
+    width:370px;
+    height:32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.subtitle1text {
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.link1 {
+    width:228px;
+    height:32px;
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    text-align: center;
+}
+
+.link1text {
+    font-size: 36px;
+    font-weight: normal;
+    color: #2f80ed;
+    text-decoration: none;
+}
+
+.feyman {
+    width:867px;
+    height: 637px;
+    position: absolute;
+    bottom: 0;
+    background-image:url(file:///C:/Users/рома/Desktop/feynman.png);
+    background-size: cover;
+    z-index: -1;
+}
+/*Страница 5*/
+.kaufman {
+    width:100%;
+    height: 967px;
+    /*border: 1px solid red;*/
+    display:table;
+    position: relative;
+    background-color: #1f1f1f;
+    z-index: -2;
+}
+.lin {
+    width: 100%;
+    height: 787px;
+    margin-top:90px;
+    
+}
+
+.elements {
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/kaufman-triangle.svg);
+    background-size:  170% 140%;
+    z-index: -1;
+    
+    
+}
+.theme {
+    width: 60%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.headingh1 {
+    line-height:1.15px;
+    font-size: 60px;
+    font-weight:600;
+   text-align: center;
+   color: white;
+}
+
+.themesubtitle {
+    width: 60%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+.headingp2 {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+   text-align: center;
+   margin-top: 10px;
+   color: white;
+}
+
+/*Блоки*/
+.tabletheme {
+    width: 70%;
+    height: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.tabletheme1 {
+    width: 100%;
+    height: 230px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.tablethemeMini {
+    width:200px;
+    height: 100%;
+    
+}
+
+.Mini {
+    width: 100%;
+    height: 30px;
+}
+
+.crift {
+    margin-left: 2px;
+    line-height: 1.15px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.Mini1 {
+    width: 100%;
+    height: 175px;
+    margin-top: 20px;
+    
+}
+
+.textParagraph {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: normal;  
+    color: white;
+}
+
+.Mini2 {
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+   
+}
+
+.tabletheme2 {
+    width: 100%;
+    height: 235px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*Страница 6*/
+.footer {
+    width:100%;
+    height: 512px;
+    /*border: 1px solid red;*/
+    display:table;
+    background-color:  #1f1f1f;
+}
+
+.columns {
+    width: 90%;
+    height: 412px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.colimncontent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.plasefooter {
+    width: 228px;
+    height: 32px;
+    background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/logo_place_footer.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.author {
+    width: 200px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    
+    text-align: center;
+}
+
+.textfo1 {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: -4px;
+    color: white;
+}
+
+.colimncontent2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.info {
+    width: 25%;
+    height: 100%;
+    margin-left: 180px;
+    display: table;
+}
+
+.ob1 {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+}
+
+.textob1 {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto;
+    color: white;
+}
+
+.textob2 {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.ob2 {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    display: table;
+}
+
+.ob3 {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.ob3cop {
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+
+.textblock {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: -5px;
+    color: white;
+
+}
+
+.social {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.images {
+    width: 11%;
+    height: 100%;
+    background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/youtube-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.images1 {
+    width: 11%;
+    height: 100%;
+    background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/vk_color_white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.images2 {
+    width: 11%;
+    height: 100%;
+    background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/tiktok-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.textnextto {
+    width: 89%;
+    height: 100%;
+    
+}
