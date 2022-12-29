@@ -3,26 +3,30 @@ body  {
 }
 
 div {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 .page {
     font-family:  'Helvetica Neue', 'Arial', sans-serif;
     display: flex;
     justify-content: center;
+    width: 1600px;
 }
+
 .content {
     width:1600px;
     height:4400px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     margin: 0;
     display:table;
 }
+
 /*Страница 1*/
+
 .header {
     width:100%;
     height:756px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     margin: 0;
     position: relative;
     background-color: #f2f2f2;  
@@ -30,7 +34,7 @@ div {
     align-items: center;
 }
 
-.logo {
+.logo_place_header {
     width:228px;
     height:32px;
     position: absolute;
@@ -65,12 +69,14 @@ div {
     align-items: center;
    
 }
+
 .text2 {
     line-height:25px;
     font-size: 18px;
     font-weight:normal;
     
 }
+
 .link {
     line-height:25px;
     font-size: 18px;
@@ -99,11 +105,13 @@ div {
     background-color: #2f80ed;
     
 }
+
 /*Страница 2*/
+
 .description {
     width:100%;
     height:334px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     display:table;
     margin-top:100px;
     
@@ -118,7 +126,7 @@ div {
     
 }
 
-.brief {
+.two-columns_brief {
     width: 175px;
     height: 100%;
     
@@ -131,6 +139,7 @@ div {
     font-weight:normal;
     margin-top: 0;
 }
+
 .kont {
     width: 80%;
     height: 100%;
@@ -138,7 +147,8 @@ div {
     right: 0;
     top: 0;
 }
-.paragraph {
+
+.two-columns_paragraph {
     width: 100%;
     height: 130px;
     margin-bottom: 30px;  
@@ -152,19 +162,20 @@ div {
     margin-top: 0;
 }
 
-.span-accent {
+.two-columns_span-accent {
     width: 100%;
     height: 35px;
     
 }
+
 .text5 {
     margin-top: 0;
     line-height:34px;
     font-size: 24px;
-    font-weight:normal;
+    font-weight: 300;
 }
 
-.main-text {
+.two-columns_main-text {
     margin-top: 30px;
     width:100%;
     height: 100px;
@@ -177,9 +188,11 @@ div {
     font-size: 24px;
     font-weight:600;
 }
+
 /*Страница 3*/
+
 .digits {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     display:table;
     margin-top: 100px;
     width:100%;
@@ -200,6 +213,7 @@ div {
     font-weight:600;
     margin-top: auto;
 }
+
 .section-subtitle {
     width: 60%;
     height: 40px;
@@ -224,7 +238,8 @@ div {
 }
 
 /*Первые четыре блока*/
-.cell {
+
+.table_cell {
     width:1100px;
     height: 30%;
     margin-top: 60px;
@@ -232,24 +247,27 @@ div {
     justify-content: space-between;
 }
 
-
 .blo {
     width: 250px;
     height: 100%;
     
 }
+
 /*Общие правила блоков*/
+
 .prblo {
     width: 100%;
     height: 30px;
     
 }
-.heading {
+
+.table_heading {
     line-height:1.15px;
     font-size: 24px;
     font-weight:600;
     margin-top: 5%;
 }
+
 .prblo1 {
     width: 100%;
     height: 40px;
@@ -257,8 +275,9 @@ div {
      
 }
 
-.text {
+.table_text {
     margin-top: 0;
+    line-height:1.2;
     font-size: 18px;
     font-weight: normal;
 }
@@ -276,7 +295,9 @@ div {
     margin-top: 20px;
     
 }
+
 /*Вторые четыре блока*/
+
 .strok1 {
     width:1100px;
     height: 42%;
@@ -289,11 +310,13 @@ div {
     width: 250px;
     height: 100%;  
 }
+
 /*Страница 4*/
+
 .feynman {
     width:100%;
     height: 900px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     margin-top: 100px;
     display:table;
     position: relative;
@@ -301,7 +324,8 @@ div {
     z-index: -2;
     
 }
-.title1 {
+
+.feynman_title {
     width: 648px;
     height: 200px;
     margin-left: auto;
@@ -316,7 +340,8 @@ div {
     font-weight: 600;
     margin-top: -50px;
 }
-.subtitle1 {
+
+.feynman_subtitle {
     width:370px;
     height:32px;
     margin-left: auto;
@@ -326,12 +351,13 @@ div {
 }
 
 .subtitle1text {
+    line-height: 51px;
     font-size: 36px;
     font-weight: normal;
-    margin-top: 0;
+    margin-top: -10px;
 }
 
-.link1 {
+.feynman_link {
     width:228px;
     height:32px;
     position: absolute;
@@ -341,13 +367,14 @@ div {
 }
 
 .link1text {
+    line-height: 35px;
     font-size: 36px;
     font-weight: normal;
     color: #2f80ed;
     text-decoration: none;
 }
 
-.feyman {
+.feynman_img {
     width:867px;
     height: 637px;
     position: absolute;
@@ -356,16 +383,19 @@ div {
     background-size: cover;
     z-index: -1;
 }
+
 /*Страница 5*/
+
 .kaufman {
     width:100%;
     height: 967px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     display:table;
     position: relative;
     background-color: #1f1f1f;
     z-index: -2;
 }
+
 .lin {
     width: 100%;
     height: 787px;
@@ -373,7 +403,7 @@ div {
     
 }
 
-.elements {
+.triangle {
     width: 877px;
     height: 877px;
     position: absolute;
@@ -381,17 +411,14 @@ div {
     right: 0; 
     background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/kaufman-triangle.svg);
     background-size:  170% 140%;
-    z-index: -1;
-    
-    
+    z-index: -1; 
 }
-.theme {
+
+.section-title_theme_dark {
     width: 60%;
     height: 90px;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 
 .headingh1 {
@@ -402,7 +429,7 @@ div {
    color: white;
 }
 
-.themesubtitle {
+.section-subtitle_theme_dark {
     width: 60%;
     height: 40px;
     margin-left: auto;
@@ -418,33 +445,32 @@ div {
    text-align: center;
    margin-top: 10px;
    color: white;
+   
 }
 
 /*Блоки*/
-.tabletheme {
+
+.table_theme_dark {
     width: 70%;
     height: 630px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-.tabletheme1 {
+.table_cell_theme_dark {
     width: 100%;
     height: 230px;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    
-    
 }
+
 .tablethemeMini {
     width:200px;
     height: 100%;
-    
 }
 
-.Mini {
+.table_heading_theme_dark {
     width: 100%;
     height: 30px;
 }
@@ -457,28 +483,29 @@ div {
     color: white;
 }
 
-.Mini1 {
+.table_text_theme_dark {
     width: 100%;
     height: 175px;
     margin-top: 20px;
     
 }
 
-.textParagraph {
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: normal;  
-    color: white;
-}
-
-.Mini2 {
+.table_text_theme_dark2 {
     width: 100%;
     height: 180px;
     margin-top: 20px;
    
 }
 
-.tabletheme2 {
+.textParagraph {
+    line-height: 1.2;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: normal;  
+    color: white;
+}
+
+.table_cell_theme_dark2 {
     width: 100%;
     height: 235px;
     margin-top: 80px;
@@ -486,11 +513,13 @@ div {
     justify-content: space-between;
     
 }
+
 /*Страница 6*/
+
 .footer {
     width:100%;
     height: 512px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     display:table;
     background-color:  #1f1f1f;
 }
@@ -504,14 +533,14 @@ div {
     display: flex;
 }
 
-.colimncontent {
+.column_content_copyright {
     width: 50%;
     height: 100%;
     display: flex;
     position: relative;
 }
 
-.plasefooter {
+.logo_plase_footer {
     width: 228px;
     height: 32px;
     background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/logo_place_footer.svg);
@@ -525,7 +554,6 @@ div {
     position: absolute;
     left: 0;
     bottom: 18px;
-    
     text-align: center;
 }
 
@@ -544,14 +572,14 @@ div {
     position: relative;
 }
 
-.info {
+.footer_column_info {
     width: 25%;
     height: 100%;
     margin-left: 180px;
     display: table;
 }
 
-.ob1 {
+.column-heading {
     width: 100%;
     height: 40px;
     text-align: center;
@@ -576,20 +604,21 @@ div {
     color: white;
 }
 
-.ob2 {
+.footer_column_links {
     width: 100%;
     height: 80px;
     margin-top: 20px;
     display: table;
 }
 
-.ob3 {
+.footer_column_link {
     width: 100%;
     height: 20px;
     margin-bottom: 10px;
     display: flex;
 }
-.ob3cop {
+
+.footer_column_linkcop {
     width: 100%;
     height: 20px;
     display: flex;
@@ -601,17 +630,16 @@ div {
     font-weight: normal;
     margin-top: -5px;
     color: white;
-
 }
 
-.social {
+.footer_column_social {
     width: 25%;
     height: 100%;
     position: absolute;
     right: 0;
 }
 
-.images {
+.footer_social_icon {
     width: 11%;
     height: 100%;
     background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/youtube-icon.svg);
@@ -619,7 +647,7 @@ div {
     background-repeat: no-repeat;
 }
 
-.images1 {
+.footer_social_icon1 {
     width: 11%;
     height: 100%;
     background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/vk_color_white.svg);
@@ -627,7 +655,7 @@ div {
     background-repeat: no-repeat;
 }
 
-.images2 {
+.footer_social_icon2 {
     width: 11%;
     height: 100%;
     background-image:url(file:///C:/Users/%D1%80%D0%BE%D0%BC%D0%B0/AppData/Local/Temp/Temp1_sprint-1_startkit.zip/sprint-1__startkit/images/tiktok-icon.svg);
