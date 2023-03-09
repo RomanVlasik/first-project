@@ -1,0 +1,6 @@
+.header__boxlang-link {
+  /*background-color: rgb(208, 255, 0);*/
+  grid-column: 2/3;
+  color: #ffffff;
+  display: flex;
+}

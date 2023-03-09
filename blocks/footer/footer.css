@@ -1,0 +1,32 @@
+.footer {
+  width: 1184px;
+  /*border: solid red;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 18px;
+  list-style-type: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .footer {
+    width: 928px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 300px;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 295px));
+    margin-left: 16px;
+    margin-top: 50px;
+  }
+}

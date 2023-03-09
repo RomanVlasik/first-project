@@ -1,0 +1,15 @@
+.footer__ul {
+  /*border: solid red;*/
+  display: flex;
+  column-gap: 18px;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__ul { 
+    display: flex;
+    flex-direction: column;
+    column-gap: 28px;
+  }
+}

@@ -1,0 +1,19 @@
+.places__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 48px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .places__box {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__box {
+    padding-bottom: 0px;
+    padding-bottom: 32px;
+  }
+}
