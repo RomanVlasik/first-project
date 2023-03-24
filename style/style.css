@@ -952,12 +952,6 @@ text-align: center;
     padding-bottom: 10px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-    .advantages_text {
-        
-    }
-}
-
 /*Номер для заказа*/
 .number__content {
     background-color: #1F1F1F;
@@ -1033,6 +1027,7 @@ text-align: center;
 
     .number__img {
         position: absolute;
+        margin-left: 10%;
         width: 90px;
     }
 }
@@ -1067,10 +1062,59 @@ text-align: center;
     }
 }
 
+.sss {
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.ssss {
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media screen and (max-width: 767px) {
+    .sss {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ssss {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        font-size: 35px;
+    }
+}
+
+
+
 @media screen and (max-width: 767px) {
     .number__subtitle {
-        font-size: 32px;
-        width: 300px;
+        display: none;
+        font-size: 35px;
+        width: 320px;
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: auto;
